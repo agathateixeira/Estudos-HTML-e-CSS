@@ -1,0 +1,40 @@
+.title {
+  text-align: center;
+}
+.initial-anchor {
+  text-align: center;
+}
+
+.initial-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.rules-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container-anchors-1 {
+  display: grid;
+  align-items: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.container-anchors-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.previous-rule-anchor {
+  margin-right: 75px;
+}
+
+.next-rule-anchor {
+  margin-left: 75px;
+}

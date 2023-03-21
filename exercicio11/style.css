@@ -1,0 +1,33 @@
+table {
+  width: 400px;
+}
+
+.tableTitle {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.cities {
+  font-style: italic;
+}
+
+ol,
+ul {
+  font-style: italic;
+}
+
+.ul2 {
+  list-style-type: circle;
+}
+
+.ol2 {
+  list-style-type: upper-roman;
+}
+
+.ol3 {
+  list-style-type: lower-latin;
+}
+
+.ol4 {
+  list-style-type: decimal;
+}
