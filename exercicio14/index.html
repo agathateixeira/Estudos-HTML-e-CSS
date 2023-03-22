@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Questão 01</title>
+  </head>
+  <body>
+    <caption>
+      <h2>Ficha Cadastral</h2>
+    </caption>
+    <form action="">
+      <table width="500px">
+        <tbody>
+          <tr>
+            <td width="25%">Nome:</td>
+            <td colspan="3">
+              <input type="text" size="55" />
+            </td>
+          </tr>
+          <tr>
+            <td width="25%">RG:</td>
+            <td width="25%">
+              <input type="text" size="13" />
+            </td>
+            <td width="25%">CPF:</td>
+            <td width="25%">
+              <input type="text" size="13" />
+            </td>
+          </tr>
+          <tr>
+            <td>Endereço:</td>
+            <td colspan="3"><input type="text" size="55" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sexo">Sexo:</label>
+            </td>
+            <td>
+              <select name="sexo" id="sexo">
+                <option value="male" id="sexo">Masculino</option>
+                <option value="female">Feminino</option>
+              </select>
+            </td>
+            <td id="dataNascimento">
+              <label for="Date">Data Nascimento:</label>
+            </td>
+            <td>
+              <input type="datetime" size="13" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p id="situacaoCivil">Situação Civil:</p>
+            </td>
+            <td>
+              <label for="solteiro"></label>
+              <input type="radio" name="solteiro" id="solteiro" />Solteiro(a)
+            </td>
+
+            <td><input type="radio" name="casado" id="casado" />Casado(a)</td>
+            <td><input type="radio" name="viuvo" id="viuvo" />Viúvo(a)</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4" id="resetButton">
+              <label for="limpar"></label>
+              <input type="reset" value="Limpar Dados" />
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>

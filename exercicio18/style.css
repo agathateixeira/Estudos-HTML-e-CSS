@@ -1,0 +1,42 @@
+table {
+  margin: 0 auto;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  border: 1px solid #c7e7f3;
+}
+
+th,
+td {
+  padding: 2px;
+}
+
+.cabecalho1 {
+  background-color: #0d5188;
+  color: white;
+}
+
+.cabecalho2 {
+  background-color: #66c5e3;
+}
+
+.cities {
+  background-color: #c7e7f3;
+  color: #0d5188;
+  font-weight: bold;
+}
+
+.position {
+  background-color: silver;
+  text-align: center;
+  width: 10%;
+}
+
+.position-head {
+  width: 10%;
+}
+
+.population {
+  width: 15%;
+  background-color: #c7e7f3;
+}

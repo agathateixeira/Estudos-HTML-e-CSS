@@ -1,0 +1,26 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  margin: auto;
+  cellspacing: 1px;
+  cellpadding: 1px;
+  background-color: rgb(180, 175, 224);
+}
+
+td {
+  margin: 1px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#dataNascimento,
+#situacaoCivil {
+  font-size: 15px;
+}
+
+#resetButton {
+  text-align: center;
+}
