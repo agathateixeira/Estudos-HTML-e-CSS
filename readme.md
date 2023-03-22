@@ -8,7 +8,7 @@ Os exercícios foram baseados em conteúdos grátis da internet e pela plataform
 
 # Estudos HTML
 
-Aprendi sobre atributos, valores, criar listas, criar tabelas, utilizar tags básicas como <a>, <img>, <input>, <button> , <div>, box model, entre outros.
+Aprendi sobre atributos, valores, criar listas, criar tabelas, utilizar tags básicas como a, img, input, button , div, box model, entre outros.
 
 # Estudos CSS
 
