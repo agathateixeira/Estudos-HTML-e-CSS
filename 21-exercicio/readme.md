@@ -7,3 +7,5 @@ Exercitar HTML e CSS fazendo o segundo desafio inspirado no site FrontendMentor 
 ## 📚 Considerações sobre o exercício 📚
 
 Neste exercício pude evoluir em CSS praticando a utilização de _display flex_, _justify-content_, _grid_ e responsividade.
+
+<img src='https://github.com/agathateixeira/exercicios-html-e-css/blob/main/21-exercicio/images/readme.PNG?raw=true'>
