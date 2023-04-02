@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+.container {
+  background-color: hsl(204, 43%, 93%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 650px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "join join"
+    "monthly why";
+  font-family: "Karla", sans-serif;
+}
+
+.join-our-community {
+  background-color: white;
+  grid-area: join;
+  padding: 40px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+#join-title {
+  color: hsl(179, 62%, 43%);
+}
+
+#join-subtitle {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.join-description {
+  color: hsl(218, 22%, 67%);
+  line-height: 175%;
+}
+
+.monthly-subs {
+  background-color: hsl(179, 62%, 43%);
+  grid-area: monthly;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0px 0px 0px 7px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#number-price {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+}
+
+#per-month {
+  color: white;
+  font-weight: 200;
+}
+
+hr {
+  border-color: transparent;
+}
+
+#subtitle-monthly {
+  color: white;
+  font-weight: 300;
+}
+
+.button {
+  padding: 15px 100px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.why-us {
+  background-color: hsl(179, 49%, 62%);
+  grid-area: why;
+  padding: 40px;
+  border-radius: 0px 0px 7px 0px;
+}
+
+#title-why-us,
+#title-monthly-subs {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+
+#subtitles-why-us {
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+  padding: 2px;
+}
+
+@media (max-width: 900px) {
+  .main {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .join-our-community {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .monthly-subs {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0px;
+  }
+
+  .why-us {
+    padding: 20px;
+    border-radius: 0px 0px 7px 7px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main {
+    width: 250px;
+  }
+
+  .monthly-subs {
+    font-size: 14px;
+  }
+  .button {
+    padding: 15px 50px;
+  }
+}
