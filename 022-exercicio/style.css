@@ -1,15 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
 }
 .container {
-  background-color: crimson;
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card {
   background-color: cornflowerblue;
+  /* border: 2px solid coral; */
+  display: flex;
+  width: 35%;
 }
 .leftImg {
   background-color: chartreuse;
+  max-width: 100%;
+}
+
+#img {
+  min-height: 100%;
+  max-width: 290px;
 }
 .asideText {
-  background-color: darkorange;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 52%;
+}
+
+.textPart {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#perfumeDescription,
+h5 {
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+
+h5 {
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+h1 {
+  font-family: Fraunces, Verdana, Geneva, Tahoma, sans-serif;
+  color: hsl(212, 21%, 14%);
+}
+
+.valueAndButton {
+  background-color: hsl(0, 0%, 100%);
+  /* border: 2px solid darkslateblue; */
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+
+  grid-template-areas:
+    "lowerPrice higherPrice"
+    "button button";
+}
+
+#lowerPrice {
+  /* background-color: aquamarine; */
+  font-family: Fraunces, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  color: hsl(158, 36%, 37%);
+}
+
+#higherPrice {
+  /* background-color: burlywood; */
+  color: hsl(228, 12%, 48%);
+}
+
+#button {
+  background-color: ;
 }
