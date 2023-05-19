@@ -15,26 +15,27 @@ body {
   align-items: center;
 }
 .card {
-  background-color: cornflowerblue;
-  /* border: 2px solid coral; */
   display: flex;
-  width: 35%;
+  width: 37vw;
+  min-height: 55vh;
+  border-radius: 10px;
 }
 .leftImg {
-  background-color: chartreuse;
-  max-width: 100%;
+  width: 18.5vw;
 }
 
 #img {
   min-height: 100%;
-  max-width: 290px;
+  width: 18.5vw;
+  border-radius: 10px 0px 0px 10px;
 }
 .asideText {
   background-color: hsl(0, 0%, 100%);
-  padding: 20px;
+  padding: 30px;
   display: grid;
   grid-template-columns: 1fr;
-  width: 52%;
+  width: 18.5vw;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .textPart {
@@ -43,6 +44,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
 #perfumeDescription,
 h5 {
   font-size: 14px;
@@ -50,9 +52,14 @@ h5 {
   color: hsl(228, 12%, 48%);
 }
 
+#perfumeDescription {
+  line-height: 23px;
+}
+
 h5 {
   font-weight: 500;
   letter-spacing: 5px;
+  font-size: 12px;
 }
 
 h1 {
@@ -62,28 +69,39 @@ h1 {
 
 .valueAndButton {
   background-color: hsl(0, 0%, 100%);
-  /* border: 2px solid darkslateblue; */
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
-
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "lowerPrice higherPrice"
     "button button";
 }
 
 #lowerPrice {
-  /* background-color: aquamarine; */
   font-family: Fraunces, Verdana, Geneva, Tahoma, sans-serif;
+  width: 700;
   font-size: 30px;
   margin-top: 20px;
   color: hsl(158, 36%, 37%);
 }
 
 #higherPrice {
-  /* background-color: burlywood; */
   color: hsl(228, 12%, 48%);
+  margin-top: 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  text-decoration: line-through;
+  font-weight: 500;
+  margin-left: 20px;
 }
 
 #button {
-  background-color: ;
+  border: none;
+  border-radius: 8px;
+  font-family: Fraunces, Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsl(158, 36%, 37%);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
 }
+
+@media (1330px);
