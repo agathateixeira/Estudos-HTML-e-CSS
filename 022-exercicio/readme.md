@@ -1,14 +1,11 @@
-# Frontend Mentor - Product preview card component solution
+## 🎯 Goals: 🎯
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Practice HTML and CSS by completing the third challenge inspired by the FrontendMentor website.
 
-### Links
+![GitHub language count](https://camo.githubusercontent.com/608a0cd6923ea748e27d30818ef7b8d5e01cd11a11549e6c7a825826a4815dd2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f636f756e742f61676174686174656978656972612f65786572636963696f732d68746d6c2d652d637373)
 
-- Solution URL:
+<img src = "https://github.com/agathateixeira/exercicios-html-e-css/blob/for-studies/022-exercicio/images/readme.PNG?raw=true">
 
-## My process
+## 📚 Exercise Reflections 📚
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+In this exercise, I was able to improve my CSS skills by practicing the use of display flex, justify-content, grid, and responsiveness.
